@@ -1,0 +1,1 @@
+tmux new-session \; split-window -v \; split-window -h \; resize-pane -D 15 \; select-pane -t 0 \;
