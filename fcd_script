@@ -1,0 +1,4 @@
+cd ~
+file=$(fzf -q "$1")
+dir=$(dirname "$file")
+cd "$dir"
